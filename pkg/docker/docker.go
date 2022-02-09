@@ -25,7 +25,7 @@ import (
 	dockermessage "github.com/docker/docker/pkg/jsonmessage"
 	dockerstdcopy "github.com/docker/docker/pkg/stdcopy"
 	"github.com/docker/go-connections/tlsconfig"
-	v1 "github.com/opencontainers/image-spec/specs-go/v1"
+	"github.com/opencontainers/image-spec/specs-go/v1"
 	"golang.org/x/net/context"
 
 	"github.com/openshift/source-to-image/pkg/api"
